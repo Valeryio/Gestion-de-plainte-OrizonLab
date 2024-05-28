@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--clr-primary-dark-blue);
+  color: white;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header .account button {
+  background-color: var(--clr-primary-yellow);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #003580;
+}
