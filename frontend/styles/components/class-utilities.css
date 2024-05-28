@@ -2,3 +2,13 @@
 {
     color: var(--clr-primary-dark-blue);
 }
+
+.fw-300
+{
+    font-weight: var(--fw-light);
+}
+
+.fw-500
+{
+    font-weight: var(--fw-medium);
+}

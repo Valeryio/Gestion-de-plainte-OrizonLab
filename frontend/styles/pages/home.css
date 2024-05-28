@@ -1,9 +1,10 @@
+
+@import "../abstracts/variables.css";
 @import "../layout/header.css";
 @import "../layout/footer.css";
 @import "../components/buttons.css";
 @import "../components/class-utilities.css";
 @import "../layout/grid-system.css";
-@import "../abstracts/variables.css";
 
 
 body 
@@ -16,30 +17,26 @@ body
   padding: 6rem;
   display: grid;
   grid-gap: 4rem;
-  grid-template-rows: 4rem auto 2rem;
+  width: 100%;
+  justify-items: center;
+  grid-template-rows: repeat(3, auto-fit);
+
   background-color: var(--clr-secondary-bkg-gray);
+
+  color: var(--clr-primary-dark-blue);
 }
 
+.hero-header__title
+{
+  max-width: 764px;
 
-.intro {
   text-align: center;
-  padding: 50px 20px;
-  background-color: #f1f1f1;
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-light);
 }
 
-.intro h1 {
-  color: #003580;
-}
-
-.intro p {
-  max-width: 800px;
-  margin: 20px auto;
-}
-
-.intro .services-button {
-  background-color: var(--clr-primary-yellow);
-  border: none;
-  padding: 15px 30px;
-  cursor: pointer;
-  color: #003580;
+.hero-header__desc
+{
+  text-align: center;
+  font-size: var(--fs-normal);
 }
