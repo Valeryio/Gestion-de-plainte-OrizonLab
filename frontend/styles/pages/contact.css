@@ -2,3 +2,8 @@
 @import "../layout/footer.css";
 @import "../layout/grid-system.css";
 @import "../abstracts/variables.css";
+
+button{
+
+    background-color: red;
+}
