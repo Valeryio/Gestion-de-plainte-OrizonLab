@@ -1,0 +1,31 @@
+
+.grid-template
+{
+    
+  padding: 6rem;
+  display: grid;
+  grid-gap: 4rem;
+  width: 100%;
+  justify-items: center;
+  grid-template-rows: repeat(3, auto-fit);
+
+  background-color: var(--clr-secondary-bkg-gray);
+
+  color: var(--clr-primary-dark-blue);
+}
+
+
+.hero-header__title
+{
+  max-width: 764px;
+
+  text-align: center;
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-light);
+}
+
+.hero-header__desc
+{
+  text-align: center;
+  font-size: var(--fs-normal);
+}
