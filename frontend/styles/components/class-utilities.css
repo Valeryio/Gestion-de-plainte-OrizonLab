@@ -13,3 +13,14 @@
 {
     font-weight: var(--fw-medium);
 }
+
+.fw-600
+{
+    font-weight: var(--fw-semibold);
+}
+
+.link-active
+{
+    font-weight: var(--fw-semibold);
+    text-decoration: solid;
+}
