@@ -1,10 +1,9 @@
-header {
+.header 
+{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  background-color: var(--clr-primary-dark-blue);
-  color: white;
+  border: 1px solid;
 }
 
 header .logo img {
@@ -20,7 +19,7 @@ header nav ul {
 }
 
 header nav ul li a {
-  color: white;
+  /* color: white; */
   text-decoration: none;
 }
 

@@ -1,12 +1,25 @@
 @import "../layout/header.css";
 @import "../layout/footer.css";
+@import "../components/buttons.css";
+@import "../components/class-utilities.css";
 @import "../layout/grid-system.css";
 @import "../abstracts/variables.css";
 
 
-body {
+body 
+{
   font-family: var(--ff-normal);
 }
+
+.hero-header
+{
+  padding: 6rem;
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-rows: 4rem auto 2rem;
+  background-color: var(--clr-secondary-bkg-gray);
+}
+
 
 .intro {
   text-align: center;

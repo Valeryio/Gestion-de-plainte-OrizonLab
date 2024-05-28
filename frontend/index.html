@@ -3,31 +3,50 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./styles/base/reset.css">
         <link rel="stylesheet" href="./styles/pages/home.css">
         <title>Home</title>
     </head>
     <body>
-        <header class="header">
-            <div class="logo">
-                <img src="logo.png" alt="Orizon TechLab Logo">
-            </div>
-            <nav class="header__nav-list">
-                <ul>
-                    <li>
-                        <a href="#" class="header__nav-item" >Accueil</a>
-                    </li>
-                    <li><a href="#" class="header__nav-item" >Nos services</a></li>
-                    <li><a href="#" class="header__nav-item" >Contact</a></li>
-                </ul>
-            </nav>
 
-            <h1 class="header__title"></h1>
+        <section class="hero-header">
+            <header class="header">
+                <div class="header__logo">
+                    <img src="./assets/icons/orizon-lab-tech-blue.svg" alt="Orizon TechLab Logo">
+                </div>
+                <nav>
+                    <ul class="header__nav-list">
+                        <li>
+                            <a href="#" class="header__nav-item link" >Accueil</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__nav-item link" >Nos services</a>
+                        </li>
+                        <li>
+                            <a href="#" class="header__nav-item link" >Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="button" class="btn btn--orange">Mon compte</button>
+            </header>
+    
+                <h1 class="header__title">
+                    <strong>Orizon TechLab</strong> - Plateforme de
+                    gestion des plaintes
+                </h1>
 
-            <p>Cette plateforme de gestion des plaintes est mise en place  pour faciliter le processus de signalement, de suivi et de résolution des problèmes rencontrés par les gestionnaires, dans le but d'améliorer la satisfaction client et l'efficacité des services.</p>
+                <p class="header__desc" >
+                    Cette plateforme de gestion des plaintes est mise en place pour 
+                    faciliter le processus de signalement, de suivi et de résolution 
+                    des problèmes rencontrés par les gestionnaires, dans le but 
+                    d'améliorer la satisfaction client et l'efficacité des services.
+                </p>
 
-            <button type="button" class="btn">Mon compte</button>
-        </header>
-        
+                <button type="button" class="btn">Mon compte</button>
+        </section>
+
     </body>
 </html>
