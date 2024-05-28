@@ -1,1 +1,15 @@
 @import "../abstracts/variables.css";
+
+
+h3.entete
+{
+  color: blue;
+  text-align: center;
+}
+
+form
+{
+  text-align: center;
+
+}
+
