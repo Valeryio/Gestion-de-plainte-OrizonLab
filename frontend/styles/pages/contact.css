@@ -1,9 +1,20 @@
+
+@import "../abstracts/variables.css";
 @import "../layout/header.css";
 @import "../layout/footer.css";
+@import "../layout/grid-template.css";
+@import "../components/buttons.css";
+@import "../components/class-utilities.css";
 @import "../layout/grid-system.css";
-@import "../abstracts/variables.css";
+
+
+
+body 
+{
+  font-family: var(--ff-normal);
+}
 
 button{
 
-    background-color: red;
+    /* background-color: red; */
 }
