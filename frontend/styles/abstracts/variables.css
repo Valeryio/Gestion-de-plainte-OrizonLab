@@ -1,0 +1,22 @@
+:root
+{
+  /*-----------------SYSTEM COLORS----------------*/
+  --clr-primary-dark-blue: #202D65;
+  --clr-primry-yellow: #DBD022;
+
+  --clr-secondary-bkg-gray: #D9D9D9;
+  --clr-secondary-bkg-white: #fff;
+
+  /*-----------------SYSTEM FONTS----------------*/ 
+  --ff-normal: "Poppins";
+
+  --fs-normal: 24px;
+  --fs-h1: 48px;
+  --fs-h2: 32px;
+  --fs-small: 20px;
+
+  --fw-800: 800;
+  --fw-light: light;
+  --fw-medium: medium;
+  --fw-regular: regular;
+}
