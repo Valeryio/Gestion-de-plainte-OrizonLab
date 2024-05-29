@@ -4,6 +4,17 @@
     color: var(--clr-primary-dark-blue);
 }
 
+.link-active
+{
+    font-weight: var(--fw-semibold);
+    text-decoration: solid;
+}
+
+.link--white
+{
+  color: var(--clr-secondary-bkg-white);
+}
+
 .fw-300
 {
     font-weight: var(--fw-light);
@@ -17,12 +28,6 @@
 .fw-600
 {
     font-weight: var(--fw-semibold);
-}
-
-.link-active
-{
-    font-weight: var(--fw-semibold);
-    text-decoration: solid;
 }
 
 .appear

@@ -4,12 +4,16 @@
 
 footer
 {
-    background-color:var(--clr-primary-yellow) ;
-    padding: 35px 0;
+  border: 1px solid;
+  padding: 32px 0;
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--clr-secondary-bkg-white);
+  background: var(--clr-primary-dark-blue);
   
 }
 
-footer .blue-part
+/* footer .blue-part
 {
   background-color: var(--clr-primardark-blue);
   border: 1px solid green;
@@ -19,97 +23,60 @@ footer .blue-part
   padding:20px 0; 
    
   
-}
+} */
 
-footer .blue-part .left-part
+
+.footer__left-part,
+.footer__right-part
 {
- position: absolute;
- width: 50%;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- border-right: 1px solid white;
- padding:20px 24px;
-
-}
-
-footer .blue-part .right-part
-{
- position: absolute;
- 
+  min-width: 400px;
   width: 50%;
-  left: 50%;
- 
- padding:20px 15px;
- 
-
+  padding:1rem 2rem;
 }
 
-
-
-footer .blue-part .left-part .company-logo
-{
-  margin-bottom: 25px;
-}
-footer .blue-part .left-part .socials-links
+.footer__socials-links
 {
   display: flex;
-  gap:40px; 
-  margin-bottom: 25px;
+  gap: 1rem;
 }
-
-footer .blue-part .left-part .divider
+ .footer__left-part
 {
- width: 100%;
- height: 1px;
- background-color: rgb(226, 213, 213);
- margin-bottom: 20px;
-}
-
-footer .blue-part .left-part .droits-auteur
-{
- 
-  font-size:19px;
-  color: white;
-}
-
-footer .blue-part .left-part .droits-auteur a
-{
- color: white;
- 
-}
-
-
-footer .blue-part .right-part .contactez-nous
-{
- font-size:24px ;
- color: white;
- padding:9px;
- border-bottom: 1px solid white;
- width: 55%;
  display: flex;
  flex-direction: column;
- justify-content: center;
+ gap: 2rem;
  align-items: center;
- margin: 10px auto;
-
+ border-right: 1px solid var(--clr-secondary-bkg-white);
 }
 
-footer .blue-part .right-part .info{
- 
-  display: flex;
-  justify-content: center;
-  gap: 100px;
-  
-}
-
-footer .blue-part .right-part .info p
+.footer__droits-auteur
 {
- font-size: 20px;
- color: white;
- margin-bottom:12px;
+  border-top:1px solid var(--clr-secondary-bkg-white);
+  text-align: center;
+  width: 100%;
+  padding: 2rem 0;
 }
+
+.footer__contact-desc
+{
+  font-size: var(--fs-normal);
+  text-align: center;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--clr-secondary-bkg-white);
+}
+
+.footer__contact
+{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.footer__contact-data
+{
+  width:20rem;
+}
+
+ 
 
 
 
