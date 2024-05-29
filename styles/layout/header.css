@@ -48,7 +48,9 @@
 
 
 
-
+/********************************************\
+*       RESPONSIVE CODE FOR THE HEADER       *
+\********************************************/
 @media screen and (max-width: 938px) 
 {
   .header__nav-list

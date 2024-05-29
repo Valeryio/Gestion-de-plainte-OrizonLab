@@ -22,8 +22,8 @@ body
 \********************************************/
 .services
 {
-  padding: 48px 20px;
-  margin:6rem 0;
+  padding: 1rem;
+  margin: 6rem 0;
   display: flex;
   gap: 2rem;
   align-items: center;
@@ -39,7 +39,9 @@ body
 {
   display: grid;
   gap: 2rem;
-  max-width: 1000px;
+  padding: 2rem 0rem;
+  max-width: 1080px;
+  justify-items: center;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(156px, 300px));
 }
@@ -47,6 +49,9 @@ body
 .services__service-box
 {
   width: minmax(256px, 270px);
+
+  border: 1px solid var(--clr-primary-dark);
+  border-radius: 10px;
 
   text-align: center;
   
@@ -59,28 +64,13 @@ body
 .services__service-box:hover
 {
   background-color: var(--clr-primary-yellow);
+  box-shadow: 0 4px 8px var(--clr-secondary-shadow);
 }
 
 .services__service-box:active
 {
-  box-shadow: 0px 3px 3px var(--clr-secondary-shadow);
-  rotate: 10deg;
-}
-
-.services__service-box
-{
-  max-width: 16rem;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: stretch;
-
-  border: 1px solid var(--clr-primary-dark);
-  border-radius: 10px;
-
-  text-align: center;
-
-  overflow: hidden;
   box-shadow: 0 4px 8px var(--clr-secondary-shadow);
+  rotate: 10deg;
 }
 
 .services__service-box-title
@@ -90,4 +80,19 @@ body
   font-size: 20px;
   font-weight: var(--fw-semibold);
   color: var(--clr-primary-dark-blue);
+}
+
+
+
+
+
+/********************************************\
+*          RESPONSIVE OF THE HOME            *
+\********************************************/
+@media screen and (max-width: 938px) 
+{
+  .services-container
+  {
+    max-width: none;
+  } 
 }
