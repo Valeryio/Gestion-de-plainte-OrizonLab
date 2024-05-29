@@ -6,7 +6,7 @@
 
   padding: var(--responsive-padding);
   display: grid;
-  /* grid-gap: 4rem; */
+
   grid-gap: var(--responsive-gap);
   width: 100%;
   justify-items: center;
@@ -31,16 +31,4 @@
 {
   text-align: center;
   font-size: var(--fs-normal);
-}
-
-
-@media screen and (max-width: 938px) 
-{
-
-  .hero-header__desc
-  {
-    bordeR: 1px solid;
-    text-align: center;
-  }
-
 }

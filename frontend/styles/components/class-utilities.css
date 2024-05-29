@@ -24,3 +24,8 @@
     font-weight: var(--fw-semibold);
     text-decoration: solid;
 }
+
+.appear
+{
+  opacity: 1!important;
+}
