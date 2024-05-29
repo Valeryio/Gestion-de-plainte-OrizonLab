@@ -20,8 +20,9 @@ body
 /********************************************\
 *          Code of the services box          *
 \********************************************/
-.services {
-  padding: 50px 20px;
+.services
+{
+  padding: 48px 20px;
   margin:6rem 0;
   display: flex;
   gap: 2rem;
@@ -34,55 +35,59 @@ body
   text-align: center;
 }
 
-.services-grid {
+.services-container
+{
   display: grid;
+  gap: 2rem;
   max-width: 1000px;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(156px, 300px));
-  gap: 2rem;
 }
 
-.service {
-  justify-self: center;
-  background-color: var(--clr-primary-yellow);
-  padding: 30px;
+.services__service-box
+{
   width: minmax(256px, 270px);
+
   text-align: center;
+  
+  background-color: var(--clr-primary-yellow);
+
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: all 0.5s;
 }
 
-.service:hover {
+.services__service-box:hover
+{
   background-color: var(--clr-primary-yellow);
 }
 
-.service:active{
-  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+.services__service-box:active
+{
+  box-shadow: 0px 3px 3px var(--clr-secondary-shadow);
   rotate: 10deg;
 }
 
-.service {
-  border: 1px solid black;
-  border-radius: 10px;
+.services__service-box
+{
   max-width: 16rem;
-  overflow: hidden;
-  background-color: --clr-primary-yellow;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  text-align: center;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: stretch;
+
+  border: 1px solid var(--clr-primary-dark);
+  border-radius: 10px;
+
+  text-align: center;
+
+  overflow: hidden;
+  box-shadow: 0 4px 8px var(--clr-secondary-shadow);
 }
 
-.service .image img {
-  width: auto;
-  height: auto;
-  display: block;
-}
+.services__service-box-title
+{
+  padding: 1rem 0;
 
-.service .title {
-  padding: 5px;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: var(--fw-semibold);
   color: var(--clr-primary-dark-blue);
 }

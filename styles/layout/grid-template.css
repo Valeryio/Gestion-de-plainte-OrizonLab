@@ -6,6 +6,7 @@
 
   padding: var(--responsive-padding);
   display: grid;
+  min-width: 16rem;
 
   grid-gap: var(--responsive-gap);
   width: 100%;

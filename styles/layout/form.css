@@ -3,10 +3,10 @@
 
 .service-form
 {
-
   padding: 2rem;
   margin: 4rem auto;
   max-width: 800px;
+  min-width: 16rem;
 }
 
 .service-form__title
@@ -25,6 +25,7 @@
 {
   margin-bottom: 1rem;
 }
+
 .service__radio-btn-container
 {
   display: flex;
@@ -46,7 +47,6 @@
   border-radius: 4px;
   border: 2px solid var(--clr-secondary-bkg-gray);
 }
-
 
 .service-form__textarea
 {

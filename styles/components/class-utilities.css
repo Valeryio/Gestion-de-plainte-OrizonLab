@@ -1,13 +1,13 @@
 .link
 {
-    text-decoration: none;
-    color: var(--clr-primary-dark-blue);
+  text-decoration: none;
+  color: var(--clr-primary-dark-blue);
 }
 
 .link-active
 {
-    font-weight: var(--fw-semibold);
-    text-decoration: solid;
+  font-weight: var(--fw-semibold);
+  text-decoration: solid;
 }
 
 .link--white
@@ -15,26 +15,40 @@
   color: var(--clr-secondary-bkg-white);
 }
 
+
+
+
+
+/********************************************\
+*           FONTS - Utilities classes        *
+\********************************************/
 .fw-300
 {
-    font-weight: var(--fw-light);
+  font-weight: var(--fw-light);
 }
 
 .fw-500
 {
-    font-weight: var(--fw-medium);
+  font-weight: var(--fw-medium);
 }
 
 .fw-600
 {
-    font-weight: var(--fw-semibold);
+  font-weight: var(--fw-semibold);
 }
 
 .fs-h3
 {
-    font-size: var(--fs-small);
+  font-size: var(--fs-small);
 }
 
+
+
+
+
+/********************************************\
+*             Javascript classes            *
+\********************************************/
 .appear
 {
   opacity: 1!important;

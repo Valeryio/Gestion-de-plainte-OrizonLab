@@ -1,25 +1,25 @@
 @import "../abstracts/variables.css";
 
 
-
 footer
 {
   border: 1px solid;
   padding: 32px 0;
   display: flex;
   flex-wrap: wrap;
-  color: var(--clr-secondary-bkg-white);
+
   background: var(--clr-primary-dark-blue);
   border-top: 1.5rem solid var(--clr-primary-yellow);
   border-bottom: 1.5rem solid var(--clr-primary-yellow);
-  
+
+  color: var(--clr-secondary-bkg-white);
 }
 
 .footer__left-part,
 .footer__right-part
 {
-  min-width: 400px;
   width: 50%;
+  min-width: 300px;
   padding:1rem 2rem;
 }
 
@@ -28,28 +28,34 @@ footer
   display: flex;
   gap: 1rem;
 }
- .footer__left-part
+
+.footer__left-part
 {
- display: flex;
- flex-direction: column;
- gap: 2rem;
- align-items: center;
- border-right: 1px solid var(--clr-secondary-bkg-white);
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+
+  border-right: 1px solid var(--clr-secondary-bkg-white);
 }
 
 .footer__droits-auteur
 {
-  border-top:1px solid var(--clr-secondary-bkg-white);
-  text-align: center;
   width: 100%;
   padding: 2rem 0;
+
+  text-align: center;
+
+  border-top:1px solid var(--clr-secondary-bkg-white);
 }
 
 .footer__contact-desc
 {
   font-size: var(--fs-normal);
-  text-align: center;
   padding: 2rem 0;
+
+  text-align: center;
+
   border-bottom: 1px solid var(--clr-secondary-bkg-white);
 }
 
@@ -65,7 +71,37 @@ footer
   width: 20rem;
 }
 
- 
+
+
+
+
+
+/********************************************\
+*             RESPONSIVE - footer            *
+\********************************************/
+@media screen and (max-width: 938px) 
+{
+  .footer__left-part,
+  .footer__right-part
+  {
+    width: 100%;
+  }
+
+  .footer__left-part
+  {
+   border-right: none;
+  }
+
+  .footer__droits-auteur
+  {
+    padding-bottom: 0rem;
+  }
+
+  .footer__contact-desc
+  {
+    padding-top: 0rem;
+  } 
+}
 
 
 
