@@ -28,7 +28,7 @@ body
   color: var(--clr-primary-dark-blue); 
 }
 */
-
+/* 
 .hero-header__title
 {
   max-width: 764px;
@@ -42,7 +42,7 @@ body
 {
   text-align: center;
   font-size: var(--fs-normal);
-}
+} */
 
 .services {
   padding: 50px 20px;

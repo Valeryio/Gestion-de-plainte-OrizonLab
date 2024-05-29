@@ -1,10 +1,13 @@
 
 .grid-template
 {
-    
-  padding: 6rem;
+  --responsive-padding: clamp(2.5rem, 0.5rem + 5vw, 6rem);
+  --responsive-gap: clamp(2.5rem, 0.5rem + 5vw, 4rem);
+
+  padding: var(--responsive-padding);
   display: grid;
-  grid-gap: 4rem;
+  /* grid-gap: 4rem; */
+  grid-gap: var(--responsive-gap);
   width: 100%;
   justify-items: center;
   grid-template-rows: repeat(3, auto-fit);
@@ -28,4 +31,16 @@
 {
   text-align: center;
   font-size: var(--fs-normal);
+}
+
+
+@media screen and (max-width: 938px) 
+{
+
+  .hero-header__desc
+  {
+    bordeR: 1px solid;
+    text-align: center;
+  }
+
 }

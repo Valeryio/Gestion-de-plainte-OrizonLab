@@ -9,6 +9,13 @@
   align-items: center;
 }
 
+.header__logo
+{
+  height: 100%;
+  resize: none;
+  border: 1px solid;
+}
+
 .header__nav-list
 {
   display: flex;
@@ -19,7 +26,20 @@
   gap: 20px;
 }
 
+@media screen and (max-width: 938px) 
+{
 
+  .header
+  {
+    text-align: justify;
+  }
+
+  .header__nav-list
+  {
+    display: none;
+  }
+  
+}
 
 /*
 header .logo img {

@@ -10,8 +10,8 @@
   /*-----------------SYSTEM FONTS----------------*/ 
   --ff-normal: "Poppins";
 
-  --fs-normal: 24px;
-  --fs-h1: 48px;
+  --fs-normal: clamp(16px, 0.2rem + 2vw, 24px);
+  --fs-h1: clamp(32px, 0.2rem + 2vw, 48px);
   --fs-h2: 32px;
   --fs-small: 20px;
 
