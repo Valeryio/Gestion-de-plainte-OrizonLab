@@ -61,7 +61,7 @@ body
   grid-template-columns: repeat(3, minmax(120px, 1fr));
   gap: 4rem;
   margin: 20px;
-  padding: auto;
+  padding: 30px;
 }
 
 .service {

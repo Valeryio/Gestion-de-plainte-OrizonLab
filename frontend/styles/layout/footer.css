@@ -14,7 +14,7 @@ footer .blue-part
   background-color: var(--clr-primardark-blue);
   border: 1px solid green;
   position: relative;
-  height: 320px;
+  height: 350px;
   width: 100%;
   padding:20px 0; 
    
@@ -46,10 +46,7 @@ footer .blue-part .right-part
 
 }
 
-footer .blue-part .left-part img.orizon-logo
-{
-  
-}
+
 
 footer .blue-part .left-part .company-logo
 {
