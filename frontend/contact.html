@@ -12,97 +12,90 @@
         <title>Contact</title>
     </head>
     <body>
-
         <section class="hero-header grid-template">
             <header class="header">
                 <div class="header__logo">
                     <img src="./assets/icons/orizon-lab-tech-blue.svg" alt="Orizon TechLab Logo">
                 </div>
-                <nav>
+                <nav class="header__nav-list-container" >
                     <ul class="header__nav-list">
                         <li>
-                            <a href="index.html" class="header__nav-item link" >Accueil</a>
+                            <a href="index.html" class="header__nav-item link link-active" >Accueil</a>
                         </li>
                         <li>
-                            <a href="index.html#services" class="header__nav-item link" >Nos services</a>
+                            <a href="#services" class="header__nav-item link" >Nos services</a>
                         </li>
                         <li>
-                            <a href="contact.html" class="header__nav-item link link-active" >Contact</a>
+                            <a href="contact.html" class="header__nav-item link" >Contact</a>
                         </li>
                     </ul>
                 </nav>
-                <button type="button" class="btn btn--orange">Mon compte</button>
+                <span class="header__theme"></span>
+                <img class="header__menu" src="./assets/icons/menu.svg" alt="Hamburger menu">
             </header>
     
                 <h1 class="hero-header__title">
-                    <strong>SERVICE 1</strong>
+                    <strong>Orizon Tech Lab</strong> - Plateforme de
+                    gestion des plaintes
                 </h1>
 
                 <p class="hero-header__desc" >
-                    Cette plateforme de gestion des plaintes est mise en place pour 
-                    faciliter le processus de signalement, de suivi et de résolution 
-                    des problèmes rencontrés par les gestionnaires, dans le but 
-                    d'améliorer la satisfaction client et l'efficacité des services.
+                    Cette plateforme de <span class="fw-500" >gestion des 
+                    plaintes</span> est mise en place pour faciliter le 
+                    <span class="fw-500" >processus de signalement</span>,
+                    de suivi et de <span class="fw-500" >résolution des 
+                    problèmes</span> rencontrés par les gestionnaires, 
+                    dans le but d'améliorer la satisfaction client et 
+                    l'efficacité des services.
                 </p>
+
+                <button type="button" class="btn btn--orange"><a href="#services" class="link">Nos services</a></button>
         </section>
 
+        <section class="service-form">
+            <h2 class="service-form__title">FORMULAIRE DE PLAINTE POUR LE SERVICE 1</h2>
 
+            <form action="" class="service-form__form">
 
+                <div class="service__radio-container" >
+                    <h3 class="fs-h3 fw-500 service__radio-container-title">Sélectionnez votre civilité</h3>
 
-
-        <section class="form-section">
-
-
-           <div class="haut">
-            <p class="entete">FORMULAIRE DE PLAINTE POUR LE SERVICE 1</p>
-
-            <form action="" class="form">
-                <div>
-                  <label for="civilité">Sélectionnez votre civilité</label><br>
-                </div><br>
-                 
-                  <div class="radio">
-                    <div>
-                        <input type="radio" id="M." name="civilité" value="M.">
-                        <label for="M.">M.</label>
-                      </div>
-                      
-                     <div>
-                        <input type="radio" id="Mme" name="civilité" value="Mme">
-                        <label for="Mme">Mme</label>
-                     </div>
-                     
-                     <div>
-                        <input type="radio" id="Mlle" name="civilité" value="Mlle">
-                        <label for="Mlle">Mlle</label><br><br>
-                     </div>
-                  </div>
+                    <div class="service__radio-btn-container">
+                        <div>
+                            <input type="radio" id="M." name="civilité" value="M.">
+                            <label for="M.">M.</label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" id="Mme" name="civilité" value="Mme">
+                            <label for="Mme">Mme</label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" id="Mlle" name="civilité" value="Mlle">
+                            <label for="Mlle">Mlle</label><br><br>
+                        </div>
+                    </div>
+                </div>
                   
                  
-                 <div class="form-group">
-                  <label for="name">Quel est votre nom?</label><br><br>
-                  <input type="text" id="name" name="name" class="form-control"><br>
-                 </div>
-                 <div class="form-group">
-                  <label for="numero">Quel est votre numéro de téléphone?</label><br><br>
-                  <input type="number" id="numero" name="numero" class="form-control"><br>
-                 </div>
-                 <div class="form-group">
-                  <label for="commentaire">Décrivez votre plainte</label><br><br>
-                  <textarea name="commentaire" id="commentaire" rows="5" cols="30" class="form-control"></textarea><br>
-                 </div>
+                <div class="form-group">
+                    <label for="name">Quel est votre nom?</label>
+                    <input type="text" class="service-form__input" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="numero" >Quel est votre numéro de téléphone?</label>
+                    <input type="number" class="service-form__input" id="numero" name="numero">
+                </div>
+                <div class="form-group">
+                    <label for="commentaire">Décrivez votre plainte</label>
+                    <textarea name="commentaire" class="service-form__input service-form__textarea" id="commentaire" rows="5" cols="30"></textarea>
+                </div>
                       
-                 <button type="submit" class="btn-yellow">Envoyer</button>
+                <button type="submit" class="btn btn--orange">Envoyer</button>
                  
-                </form>
-           </div>
-
-       
-
-
+            </form>
         </section>
-
-          
 
         <footer>
             <div class="footer__left-part">
@@ -140,12 +133,15 @@
                         </div>
 
                         <div class="footer__contact">
-                            <p>Adresse<p/>
-                            <p class="footer__contact-data">Abomey-Calavi,ARCONVILLE</p>
+                            <p>Adresse</p>
+                            <p class="footer__contact-data">Abomey-Calavi, ARCONVILLE</p>
                         </div>
 
                     </div>
             </div>
         </footer>
+
+        <script src="js/config.js" ></script>
+        <script src="js/script.js" ></script>
     </body>
 </html>

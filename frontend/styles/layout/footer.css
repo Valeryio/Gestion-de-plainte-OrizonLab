@@ -10,23 +10,10 @@ footer
   flex-wrap: wrap;
   color: var(--clr-secondary-bkg-white);
   background: var(--clr-primary-dark-blue);
-  border-top:3rem solid var(--clr-primary-yellow);
-  border-bottom:3rem solid var(--clr-primary-yellow);
+  border-top: 1.5rem solid var(--clr-primary-yellow);
+  border-bottom: 1.5rem solid var(--clr-primary-yellow);
   
 }
-
-/* footer .blue-part
-{
-  background-color: var(--clr-primardark-blue);
-  border: 1px solid green;
-  position: relative;
-  height: 350px;
-  width: 100%;
-  padding:20px 0; 
-   
-  
-} */
-
 
 .footer__left-part,
 .footer__right-part
@@ -75,7 +62,7 @@ footer
 
 .footer__contact-data
 {
-  width:20rem;
+  width: 20rem;
 }
 
  

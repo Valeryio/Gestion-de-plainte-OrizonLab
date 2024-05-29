@@ -30,6 +30,11 @@
     font-weight: var(--fw-semibold);
 }
 
+.fs-h3
+{
+    font-size: var(--fs-small);
+}
+
 .appear
 {
   opacity: 1!important;
