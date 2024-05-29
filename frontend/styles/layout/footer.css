@@ -2,4 +2,118 @@
 
 
 
+footer
+{
+    background-color:var(--clr-primary-yellow) ;
+    padding: 35px 0;
+  
+}
+
+footer .blue-part
+{
+  background-color: var(--clr-primardark-blue);
+  border: 1px solid green;
+  position: relative;
+  height: 320px;
+  width: 100%;
+  padding:20px 0; 
+   
+  
+}
+
+footer .blue-part .left-part
+{
+ position: absolute;
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border-right: 1px solid white;
+ padding:20px 24px;
+
+}
+
+footer .blue-part .right-part
+{
+ position: absolute;
+ 
+  width: 50%;
+  left: 50%;
+ 
+ padding:20px 15px;
+ 
+
+}
+
+footer .blue-part .left-part img.orizon-logo
+{
+  
+}
+
+footer .blue-part .left-part .company-logo
+{
+  margin-bottom: 25px;
+}
+footer .blue-part .left-part .socials-links
+{
+  display: flex;
+  gap:40px; 
+  margin-bottom: 25px;
+}
+
+footer .blue-part .left-part .divider
+{
+ width: 100%;
+ height: 1px;
+ background-color: rgb(226, 213, 213);
+ margin-bottom: 20px;
+}
+
+footer .blue-part .left-part .droits-auteur
+{
+ 
+  font-size:19px;
+  color: white;
+}
+
+footer .blue-part .left-part .droits-auteur a
+{
+ color: white;
+ 
+}
+
+
+footer .blue-part .right-part .contactez-nous
+{
+ font-size:24px ;
+ color: white;
+ padding:9px;
+ border-bottom: 1px solid white;
+ width: 55%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: 10px auto;
+
+}
+
+footer .blue-part .right-part .info{
+ 
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  
+}
+
+footer .blue-part .right-part .info p
+{
+ font-size: 20px;
+ color: white;
+ margin-bottom:12px;
+}
+
+
+
 
