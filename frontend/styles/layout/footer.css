@@ -6,6 +6,7 @@ footer
 {
     background-color:var(--clr-primary-yellow) ;
     padding: 35px 0;
+  
 }
 
 footer .blue-part
@@ -36,14 +37,19 @@ footer .blue-part .left-part
 footer .blue-part .right-part
 {
  position: absolute;
+ 
   width: 50%;
   left: 50%;
+ 
  padding:20px 15px;
+ 
+
 }
 
 footer .blue-part .left-part img.orizon-logo
 {
- 
+  
+}
 
 footer .blue-part .left-part .company-logo
 {
@@ -52,10 +58,8 @@ footer .blue-part .left-part .company-logo
 footer .blue-part .left-part .socials-links
 {
   display: flex;
-  gap:40px;
+  gap:40px; 
   margin-bottom: 25px;
-
-
 }
 
 footer .blue-part .left-part .divider
@@ -68,7 +72,7 @@ footer .blue-part .left-part .divider
 
 footer .blue-part .left-part .droits-auteur
 {
-  /* border: 1px solid red; */
+ 
   font-size:19px;
   color: white;
 }
@@ -100,7 +104,7 @@ footer .blue-part .right-part .info{
   display: flex;
   justify-content: center;
   gap: 100px;
-  /* border: 1px solid red; */
+  
 }
 
 footer .blue-part .right-part .info p
@@ -109,5 +113,7 @@ footer .blue-part .right-part .info p
  color: white;
  margin-bottom:12px;
 }
+
+
 
 
