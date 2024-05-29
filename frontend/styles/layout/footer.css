@@ -10,6 +10,8 @@ footer
   flex-wrap: wrap;
   color: var(--clr-secondary-bkg-white);
   background: var(--clr-primary-dark-blue);
+  border-top:3rem solid var(--clr-primary-yellow);
+  border-bottom:3rem solid var(--clr-primary-yellow);
   
 }
 

@@ -22,7 +22,7 @@ body
 \********************************************/
 .services {
   padding: 50px 20px;
-
+  margin:6rem 0;
   display: flex;
   gap: 2rem;
   align-items: center;
