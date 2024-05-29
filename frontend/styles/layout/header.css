@@ -1,48 +1,78 @@
-@import "../abstracts/variables.css";
 
 .header 
 {
   display: flex;
   gap: 2rem;
   width: 100%;
+  position: relative;
+
   justify-content: space-between;
   align-items: center;
+}
+
+.header__logo
+{
+  height: 100%;
+  resize: none;
 }
 
 .header__nav-list
 {
   display: flex;
   gap: 4rem;
+  flex-wrap: wrap;
+
   font-size: var(--fs-small);
   
   list-style: none;
   gap: 20px;
 }
 
+.header__theme
+{
+  width: 32px;
+  height: 32px;
+  display: inline-block;
 
+  background-image: url(../../assets/icons/light.svg);
 
-/*
-header .logo img {
-  height: 50px;
-}
-
-header nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
-}
-
-header nav ul li a {
-  text-decoration: none;
-}
-
-header .account button {
-  background-color: var(--clr-primary-yellow);
-  border: none;
-  padding: 10px 20px;
   cursor: pointer;
-  color: #003580;
+  filter: invert(1);
 }
-*/
+
+.header__menu
+{
+  display: none;
+  cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width: 938px) 
+{
+  .header__nav-list
+  {
+    left: 0;
+    top: 0;
+    gap: 3rem;
+    width: 100%;
+    padding: 5rem 0;
+
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+    opacity: 0;
+    background: var(--clr-secondary-bkg-gray);
+    z-index: 2;
+  }
+
+  .header__menu
+  {
+    display: block;
+    z-index: 3;
+  }
+}

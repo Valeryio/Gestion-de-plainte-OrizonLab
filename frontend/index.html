@@ -17,7 +17,7 @@
                 <div class="header__logo">
                     <img src="./assets/icons/orizon-lab-tech-blue.svg" alt="Orizon TechLab Logo">
                 </div>
-                <nav>
+                <nav class="header__nav-list-container" >
                     <ul class="header__nav-list">
                         <li>
                             <a href="index.html" class="header__nav-item link link-active" >Accueil</a>
@@ -30,7 +30,8 @@
                         </li>
                     </ul>
                 </nav>
-                <button type="button" class="btn btn--orange"><a href="#services">Nos services</a></button>
+                <span class="header__theme"></span>
+                <img class="header__menu" src="./assets/icons/menu.svg" alt="Hamburger menu">
             </header>
     
                 <h1 class="hero-header__title">
@@ -47,6 +48,8 @@
                     dans le but d'améliorer la satisfaction client et 
                     l'efficacité des services.
                 </p>
+
+                <button type="button" class="btn btn--orange"><a href="#services" class="link">Nos services</a></button>
         </section>
         
         <section class="services" id="services">
@@ -115,56 +118,58 @@
 
             <div class="blue-part">
 
-                    <div class="left-part">
-                        <div class="company-logo">
-                            <a href=""><img src="../frontend/assets/icons/orizon-lab-tech-light.svg" alt="logo" class="orizon-logo"></a>
-                        </div>
-
-                        <div class="socials-links">
-                        <a href=""><img src="../frontend/assets/icons/social/facebook.svg" alt=""></a>
-                        <a href=""><img src="../frontend/assets/icons/social/github.svg" alt=""></a>
-                        <a href=""><img src="../frontend/assets/icons/social/twitter.svg" alt=""></a>
-                        
-                        </div>
-                        <div class="divider"></div>
-
-                        <div class="droits-auteur">
-                            <p>Copyright c All rights reserved <a href="">OrizonTech.</a></p>
-                        </div>
-        
-        
+                <div class="left-part">
+                    <div class="company-logo">
+                        <a href=""><img src="../frontend/assets/icons/orizon-lab-tech-light.svg" alt="logo" class="orizon-logo"></a>
                     </div>
-                    <div class="right-part">
 
-                        
-                            <div class="contactez-nous">
-                                <p>Contactez-nous pour toute question  </p>
-                                <p>ou demande d'information</p>
-                            </div>
-                        
-
-                        
-                        <div class="info">
-                                
-                                <div class="intitule">
-                                    <p>Téléphone</p>
-                                    <p>Email</p>
-                                    <p>Adresse</p>
-                                </div>
-
-                                <div class="results">
-                                    <p>+229 99999999</p>
-                                    <p>hello@orizontechlab.com</p>
-                                    <p>Abomey-Calavi,ARCONVILLE</p>
-                                </div>
-
-                                
-                            </div>
+                    <div class="socials-links">
+                    <a href="https://www.facebook.com"><img src="../frontend/assets/icons/social/facebook.svg" alt="Facebook"></a>
+                    <a href="https://github.com"><img src="../frontend/assets/icons/social/github.svg" alt="GitHub"></a>
+                    <a href="https://twitter.com"><img src="../frontend/assets/icons/social/twitter.svg" alt="X"></a>
+                    
                     </div>
-            </div>
+                    <div class="divider"></div>
+
+                    <div class="droits-auteur">
+                        <p>Copyright c All rights reserved <a href="https://www.orizontechlab.com/">OrizonTech.</a></p>
+                    </div>
+    
+    
+                </div>
+                <div class="right-part">
+
+                    
+                        <div class="contactez-nous">
+                            <p>Contactez-nous pour toute question  </p>
+                            <p>ou demande d'information</p>
+                        </div>
+                    
+
+                    
+                    <div class="info">
+                            
+                            <div class="intitule">
+                                <p>Téléphone</p>
+                                <p>Email</p>
+                                <p>Adresse</p>
+                            </div>
+
+                            <div class="results">
+                                <p>+229 99999999</p>
+                                <p>hello@orizontechlab.com</p>
+                                <p>Abomey-Calavi,ARCONVILLE</p>
+                            </div>
+
+                            
+                        </div>
+                </div>
+        </div>
 
            
         </footer>
 
+        <script src="js/config.js" ></script>
+        <script src="js/script.js" ></script>
     </body>
 </html>
