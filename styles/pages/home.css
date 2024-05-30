@@ -13,6 +13,7 @@ body
 {
   /* font-family: var(--ff-normal); */
   font-family: "Poppins";
+  scroll-behavior: smooth;
 }
 
 
